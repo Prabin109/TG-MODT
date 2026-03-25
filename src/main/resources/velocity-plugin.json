@@ -1,8 +1,0 @@
-{
-  "id": "tgmotd",
-  "name": "TG-MOTD",
-  "version": "1.0.0",
-  "main": "com.tgmotd.core.TGMotd",
-  "description": "Advanced MOTD plugin for Velocity",
-  "authors": ["Techinpoint Gamerz [TG]"]
-}
