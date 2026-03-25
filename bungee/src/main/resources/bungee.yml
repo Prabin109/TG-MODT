@@ -1,0 +1,5 @@
+name: TG-MOTD
+version: 1.0.1
+main: com.tgmotd.bungee.BungeePlugin
+author: Techinpoint Gamerz [TG]
+description: Advanced MOTD plugin

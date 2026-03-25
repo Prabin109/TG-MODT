@@ -1,0 +1,60 @@
+#  ████████╗ ██████╗     ███╗   ███╗ ██████╗ ████████╗██████╗
+#  ╚══██╔══╝██╔════╝     ████╗ ████║██╔═══██╗╚══██╔══╝██╔══██╗
+#     ██║   ██║  ███╗    ██╔████╔██║██║   ██║   ██║   ██║  ██║
+#     ██║   ██║   ██║    ██║╚██╔╝██║██║   ██║   ██║   ██║  ██║
+#     ██║   ╚██████╔╝    ██║ ╚═╝ ██║╚██████╔╝   ██║   ██████╔╝
+#     ╚═╝    ╚═════╝     ╚═╝     ╚═╝ ╚═════╝    ╚═╝   ╚═════╝
+
+config-version: 1
+# Text formatter used for the MOTD
+# Available:
+# LEGACY        -> &c&lText
+# MINIMESSAGE   -> <red><bold>Text</bold></red>
+formatter: LEGACY
+motd:
+  lines:
+    - "&#F9FF00M&#FAD500A&#FBAA00D&#FC8000E &#FE2B00B&#FF0000Y"
+    - "&#D34646&lT&#F9FF00&lG &#95EF66&lM&#64E699&lO&#32DECC&lT&#00D6FF&lD"
+
+  hover:
+    - "<gold><bold>TG NETWORK</bold></gold>"
+    - "<gray>Competitive Lifesteal Server</gray>"
+    - ""
+    - "<yellow>Community:</yellow> <red>discord.com/invite/y5UKjK3Zxp"
+  icon: "server-icon.png"
+
+players:
+  max: 200
+  show-real-count: true
+
+  fake:
+    add: 0
+    percent: 0
+
+update:
+  interval: 3000
+  check-updates: true
+
+
+maintenance:
+  enabled: false
+  kick-on-join: true
+  kick-message: "<red>The server is currently under maintenance.</red>"
+
+  motd:
+    - "<red><bold>SERVER MAINTENANCE</bold></red>"
+    - "<gray>Please try again later</gray>"
+
+  hover:
+    - "<yellow>Status:</yellow> Maintenance"
+    - "<gray>Follow updates on Discord</gray>"
+
+  player-count:
+    override: false
+    online: 0
+    max: 0
+
+advanced:
+  png-quality: 0.0
+  direct-write: false
+  debug: false

@@ -1,0 +1,11 @@
+name: TG-MOTD
+version: 1.0.1
+main: com.tgmotd.paper.PaperPlugin
+api-version: '1.20'
+author: Techinpoint Gamerz [TG]
+description: Advanced MOTD plugin
+commands:
+  tgmotd:
+    description: Manage MOTD settings
+  whitelist:
+    description: Manage whitelist
